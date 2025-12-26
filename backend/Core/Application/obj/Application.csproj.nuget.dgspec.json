@@ -1,0 +1,231 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogYönetimSistemi\\backend\\Core\\Application\\Application.csproj": {}
+  },
+  "projects": {
+    "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogYönetimSistemi\\backend\\Core\\Application\\Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogYönetimSistemi\\backend\\Core\\Application\\Application.csproj",
+        "projectName": "Application",
+        "projectPath": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogYönetimSistemi\\backend\\Core\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\erend\\.nuget\\packages\\",
+        "outputPath": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogYönetimSistemi\\backend\\Core\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\erend\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogYönetimSistemi\\backend\\Core\\Contract\\Contract.csproj": {
+                "projectPath": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogYönetimSistemi\\backend\\Core\\Contract\\Contract.csproj"
+              },
+              "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogYönetimSistemi\\backend\\Core\\Domain\\Domain.csproj": {
+                "projectPath": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogYönetimSistemi\\backend\\Core\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogYönetimSistemi\\backend\\Core\\Contract\\Contract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogYönetimSistemi\\backend\\Core\\Contract\\Contract.csproj",
+        "projectName": "Contract",
+        "projectPath": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogYönetimSistemi\\backend\\Core\\Contract\\Contract.csproj",
+        "packagesPath": "C:\\Users\\erend\\.nuget\\packages\\",
+        "outputPath": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogYönetimSistemi\\backend\\Core\\Contract\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\erend\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogYönetimSistemi\\backend\\Core\\Domain\\Domain.csproj": {
+                "projectPath": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogYönetimSistemi\\backend\\Core\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogYönetimSistemi\\backend\\Core\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogYönetimSistemi\\backend\\Core\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogYönetimSistemi\\backend\\Core\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\erend\\.nuget\\packages\\",
+        "outputPath": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogYönetimSistemi\\backend\\Core\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\erend\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

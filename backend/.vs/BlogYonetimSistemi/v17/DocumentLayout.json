@@ -1,0 +1,1701 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\validators\\category\\updatecategorycommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\validators\\category\\updatecategorycommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\validators\\category\\createcategorycommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\validators\\category\\createcategorycommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA524C9F-1F0D-49F5-AF47-A81D873EF873}|Presentation\\WebApi\\WebApi.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\presentation\\webapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA524C9F-1F0D-49F5-AF47-A81D873EF873}|Presentation\\WebApi\\WebApi.csproj|solutionrelative:presentation\\webapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA524C9F-1F0D-49F5-AF47-A81D873EF873}|Presentation\\WebApi\\WebApi.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\presentation\\webapi\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA524C9F-1F0D-49F5-AF47-A81D873EF873}|Presentation\\WebApi\\WebApi.csproj|solutionrelative:presentation\\webapi\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7416A839-3923-41D0-A961-5DBE60B9845F}|Infrastructure\\Persistence\\Persistence.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\infrastructure\\persistence\\repositoryconcretes\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7416A839-3923-41D0-A961-5DBE60B9845F}|Infrastructure\\Persistence\\Persistence.csproj|solutionrelative:infrastructure\\persistence\\repositoryconcretes\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7416A839-3923-41D0-A961-5DBE60B9845F}|Infrastructure\\Persistence\\Persistence.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\infrastructure\\persistence\\repositoryconcretes\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7416A839-3923-41D0-A961-5DBE60B9845F}|Infrastructure\\Persistence\\Persistence.csproj|solutionrelative:infrastructure\\persistence\\repositoryconcretes\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7A2AC2C-BA96-4901-89A1-D8E1C6BAAA03}|Core\\Contract\\Contract.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\contract\\repositoryinterfaces\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7A2AC2C-BA96-4901-89A1-D8E1C6BAAA03}|Core\\Contract\\Contract.csproj|solutionrelative:core\\contract\\repositoryinterfaces\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7A2AC2C-BA96-4901-89A1-D8E1C6BAAA03}|Core\\Contract\\Contract.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\contract\\repositoryinterfaces\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7A2AC2C-BA96-4901-89A1-D8E1C6BAAA03}|Core\\Contract\\Contract.csproj|solutionrelative:core\\contract\\repositoryinterfaces\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA524C9F-1F0D-49F5-AF47-A81D873EF873}|Presentation\\WebApi\\WebApi.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\presentation\\webapi\\controllers\\tagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA524C9F-1F0D-49F5-AF47-A81D873EF873}|Presentation\\WebApi\\WebApi.csproj|solutionrelative:presentation\\webapi\\controllers\\tagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA524C9F-1F0D-49F5-AF47-A81D873EF873}|Presentation\\WebApi\\WebApi.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\presentation\\webapi\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA524C9F-1F0D-49F5-AF47-A81D873EF873}|Presentation\\WebApi\\WebApi.csproj|solutionrelative:presentation\\webapi\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\cqrs\\handlers\\modify\\tags\\updatetagcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\cqrs\\handlers\\modify\\tags\\updatetagcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\cqrs\\handlers\\modify\\tags\\softdeletetagcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\cqrs\\handlers\\modify\\tags\\softdeletetagcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\cqrs\\handlers\\modify\\tags\\removetagcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\cqrs\\handlers\\modify\\tags\\removetagcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\cqrs\\handlers\\modify\\posts\\updatepostcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\cqrs\\handlers\\modify\\posts\\updatepostcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\cqrs\\handlers\\modify\\posts\\softdeletepostcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\cqrs\\handlers\\modify\\posts\\softdeletepostcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\cqrs\\handlers\\modify\\posts\\removepostcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\cqrs\\handlers\\modify\\posts\\removepostcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\cqrs\\handlers\\modify\\posts\\createpostcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\cqrs\\handlers\\modify\\posts\\createpostcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\cqrs\\handlers\\modify\\comments\\updatecommentcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\cqrs\\handlers\\modify\\comments\\updatecommentcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\cqrs\\handlers\\modify\\comments\\softdeletecommentcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\cqrs\\handlers\\modify\\comments\\softdeletecommentcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\cqrs\\handlers\\modify\\comments\\removecommentcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\cqrs\\handlers\\modify\\comments\\removecommentcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\cqrs\\handlers\\modify\\comments\\createcommentcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\cqrs\\handlers\\modify\\comments\\createcommentcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\cqrs\\handlers\\modify\\categories\\updatecategorycommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\cqrs\\handlers\\modify\\categories\\updatecategorycommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\cqrs\\handlers\\modify\\categories\\softdeletecategorycommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\cqrs\\handlers\\modify\\categories\\softdeletecategorycommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\cqrs\\handlers\\modify\\categories\\removecategorycommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\cqrs\\handlers\\modify\\categories\\removecategorycommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\cqrs\\queries\\categoryqueries\\getcategorybyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\cqrs\\queries\\categoryqueries\\getcategorybyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\cqrs\\handlers\\read\\tags\\gettagbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\cqrs\\handlers\\read\\tags\\gettagbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\cqrs\\handlers\\read\\posts\\getpostbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\cqrs\\handlers\\read\\posts\\getpostbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\cqrs\\handlers\\read\\comments\\getcommentbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\cqrs\\handlers\\read\\comments\\getcommentbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\cqrs\\handlers\\read\\categories\\getcategorybyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\cqrs\\handlers\\read\\categories\\getcategorybyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\cqrs\\commands\\categorycommands\\removecategorycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\cqrs\\commands\\categorycommands\\removecategorycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF3A82F3-29CF-4220-B56F-453D9C9E07D8}|Core\\Domain\\Domain.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\domain\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF3A82F3-29CF-4220-B56F-453D9C9E07D8}|Core\\Domain\\Domain.csproj|solutionrelative:core\\domain\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF3A82F3-29CF-4220-B56F-453D9C9E07D8}|Core\\Domain\\Domain.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\domain\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF3A82F3-29CF-4220-B56F-453D9C9E07D8}|Core\\Domain\\Domain.csproj|solutionrelative:core\\domain\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF3A82F3-29CF-4220-B56F-453D9C9E07D8}|Core\\Domain\\Domain.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\domain\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF3A82F3-29CF-4220-B56F-453D9C9E07D8}|Core\\Domain\\Domain.csproj|solutionrelative:core\\domain\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF3A82F3-29CF-4220-B56F-453D9C9E07D8}|Core\\Domain\\Domain.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\domain\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF3A82F3-29CF-4220-B56F-453D9C9E07D8}|Core\\Domain\\Domain.csproj|solutionrelative:core\\domain\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF3A82F3-29CF-4220-B56F-453D9C9E07D8}|Core\\Domain\\Domain.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\domain\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF3A82F3-29CF-4220-B56F-453D9C9E07D8}|Core\\Domain\\Domain.csproj|solutionrelative:core\\domain\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Infrastructure\\Persistence\\Migrations\\20251226111114_MyMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Persistence\\Migrations\\20251226111114_MyMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7416A839-3923-41D0-A961-5DBE60B9845F}|Infrastructure\\Persistence\\Persistence.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\infrastructure\\persistence\\configurations\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7416A839-3923-41D0-A961-5DBE60B9845F}|Infrastructure\\Persistence\\Persistence.csproj|solutionrelative:infrastructure\\persistence\\configurations\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\validators\\post\\createpostcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\validators\\post\\createpostcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\dependencyresolvers\\validatorresolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\dependencyresolvers\\validatorresolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\validators\\comment\\createcommentcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\validators\\comment\\createcommentcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\validators\\post\\updatepostcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\validators\\post\\updatepostcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA524C9F-1F0D-49F5-AF47-A81D873EF873}|Presentation\\WebApi\\WebApi.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\presentation\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA524C9F-1F0D-49F5-AF47-A81D873EF873}|Presentation\\WebApi\\WebApi.csproj|solutionrelative:presentation\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\validators\\tag\\createtagcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\validators\\tag\\createtagcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\validators\\tag\\updatetagcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\validators\\tag\\updatetagcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\mappingprofiles\\commandresultmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\mappingprofiles\\commandresultmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7416A839-3923-41D0-A961-5DBE60B9845F}|Infrastructure\\Persistence\\Persistence.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\infrastructure\\persistence\\configurations\\tagconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7416A839-3923-41D0-A961-5DBE60B9845F}|Infrastructure\\Persistence\\Persistence.csproj|solutionrelative:infrastructure\\persistence\\configurations\\tagconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\validators\\comment\\updatecommentcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\validators\\comment\\updatecommentcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7416A839-3923-41D0-A961-5DBE60B9845F}|Infrastructure\\Persistence\\Persistence.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\infrastructure\\persistence\\configurations\\commentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7416A839-3923-41D0-A961-5DBE60B9845F}|Infrastructure\\Persistence\\Persistence.csproj|solutionrelative:infrastructure\\persistence\\configurations\\commentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7416A839-3923-41D0-A961-5DBE60B9845F}|Infrastructure\\Persistence\\Persistence.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\infrastructure\\persistence\\configurations\\postconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7416A839-3923-41D0-A961-5DBE60B9845F}|Infrastructure\\Persistence\\Persistence.csproj|solutionrelative:infrastructure\\persistence\\configurations\\postconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\cqrs\\handlers\\read\\comments\\getcommentsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\cqrs\\handlers\\read\\comments\\getcommentsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\cqrs\\commands\\tagcommands\\softdeletetagcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\cqrs\\commands\\tagcommands\\softdeletetagcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\cqrs\\commands\\tagcommands\\removetagcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\cqrs\\commands\\tagcommands\\removetagcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\cqrs\\commands\\commentcommands\\softdeletecommentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\cqrs\\commands\\commentcommands\\softdeletecommentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\cqrs\\commands\\categorycommands\\softdeletecategorycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\cqrs\\commands\\categorycommands\\softdeletecategorycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\cqrs\\commands\\postcommands\\softdeletepostcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\cqrs\\commands\\postcommands\\softdeletepostcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\dependencyresolvers\\handlerresolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\dependencyresolvers\\handlerresolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\dependencyresolvers\\commandresultmapperresolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\dependencyresolvers\\commandresultmapperresolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Infrastructure\\Persistence\\Migrations\\20251226094810_MyMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Persistence\\Migrations\\20251226094810_MyMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA524C9F-1F0D-49F5-AF47-A81D873EF873}|Presentation\\WebApi\\WebApi.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\presentation\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EA524C9F-1F0D-49F5-AF47-A81D873EF873}|Presentation\\WebApi\\WebApi.csproj|solutionrelative:presentation\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7416A839-3923-41D0-A961-5DBE60B9845F}|Infrastructure\\Persistence\\Persistence.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\infrastructure\\persistence\\dependencyresolvers\\dbcontextresolvers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7416A839-3923-41D0-A961-5DBE60B9845F}|Infrastructure\\Persistence\\Persistence.csproj|solutionrelative:infrastructure\\persistence\\dependencyresolvers\\dbcontextresolvers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7416A839-3923-41D0-A961-5DBE60B9845F}|Infrastructure\\Persistence\\Persistence.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\infrastructure\\persistence\\contextclasses\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7416A839-3923-41D0-A961-5DBE60B9845F}|Infrastructure\\Persistence\\Persistence.csproj|solutionrelative:infrastructure\\persistence\\contextclasses\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\cqrs\\handlers\\modify\\categories\\createcategorycommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\cqrs\\handlers\\modify\\categories\\createcategorycommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\cqrs\\handlers\\read\\posts\\getpostsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\cqrs\\handlers\\read\\posts\\getpostsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\cqrs\\handlers\\modify\\tags\\createtagcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\cqrs\\handlers\\modify\\tags\\createtagcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\cqrs\\handlers\\read\\tags\\gettagsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\cqrs\\handlers\\read\\tags\\gettagsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\cqrs\\handlers\\read\\categories\\getcategoriesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\cqrs\\handlers\\read\\categories\\getcategoriesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\cqrs\\results\\commentresults\\getcommentbyidqueryresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\cqrs\\results\\commentresults\\getcommentbyidqueryresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\cqrs\\results\\tagresults\\gettagsqueryresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\cqrs\\results\\tagresults\\gettagsqueryresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\cqrs\\results\\tagresults\\gettagbyidqueryresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\cqrs\\results\\tagresults\\gettagbyidqueryresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\cqrs\\results\\postresults\\getpostsqueryresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\cqrs\\results\\postresults\\getpostsqueryresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\cqrs\\results\\postresults\\getpostbyidqueryresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\cqrs\\results\\postresults\\getpostbyidqueryresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\cqrs\\results\\commentresults\\getcommentsqueryresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\cqrs\\results\\commentresults\\getcommentsqueryresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\cqrs\\results\\categoryresults\\getcategoriesqueryresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\cqrs\\results\\categoryresults\\getcategoriesqueryresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\cqrs\\results\\categoryresults\\getcategorybyidqueryresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\cqrs\\results\\categoryresults\\getcategorybyidqueryresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\cqrs\\queries\\tagqueries\\gettagbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\cqrs\\queries\\tagqueries\\gettagbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\cqrs\\queries\\postqueries\\getpostbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\cqrs\\queries\\postqueries\\getpostbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\cqrs\\queries\\commentqueries\\getcommentbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\cqrs\\queries\\commentqueries\\getcommentbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\cqrs\\commands\\postcommands\\removepostcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\cqrs\\commands\\postcommands\\removepostcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\cqrs\\commands\\commentcommands\\removecommentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\cqrs\\commands\\commentcommands\\removecommentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\cqrs\\commands\\tagcommands\\updatetagcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\cqrs\\commands\\tagcommands\\updatetagcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\cqrs\\commands\\tagcommands\\createtagcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\cqrs\\commands\\tagcommands\\createtagcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\cqrs\\commands\\commentcommands\\updatecommentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\cqrs\\commands\\commentcommands\\updatecommentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\cqrs\\commands\\commentcommands\\createcommentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\cqrs\\commands\\commentcommands\\createcommentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\cqrs\\commands\\postcommands\\updatepostcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\cqrs\\commands\\postcommands\\updatepostcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\cqrs\\commands\\postcommands\\createpostcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\cqrs\\commands\\postcommands\\createpostcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\cqrs\\commands\\categorycommands\\createcategorycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\cqrs\\commands\\categorycommands\\createcategorycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF3A82F3-29CF-4220-B56F-453D9C9E07D8}|Core\\Domain\\Domain.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\domain\\models\\enums\\publishstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF3A82F3-29CF-4220-B56F-453D9C9E07D8}|Core\\Domain\\Domain.csproj|solutionrelative:core\\domain\\models\\enums\\publishstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF3A82F3-29CF-4220-B56F-453D9C9E07D8}|Core\\Domain\\Domain.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\domain\\models\\enums\\approvestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF3A82F3-29CF-4220-B56F-453D9C9E07D8}|Core\\Domain\\Domain.csproj|solutionrelative:core\\domain\\models\\enums\\approvestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\application\\cqrs\\commands\\categorycommands\\updatecategorycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36722F77-ED84-4D97-ACF5-5D6A28EC62A8}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\cqrs\\commands\\categorycommands\\updatecategorycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7416A839-3923-41D0-A961-5DBE60B9845F}|Infrastructure\\Persistence\\Persistence.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\infrastructure\\persistence\\repositoryconcretes\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7416A839-3923-41D0-A961-5DBE60B9845F}|Infrastructure\\Persistence\\Persistence.csproj|solutionrelative:infrastructure\\persistence\\repositoryconcretes\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7416A839-3923-41D0-A961-5DBE60B9845F}|Infrastructure\\Persistence\\Persistence.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\infrastructure\\persistence\\repositoryconcretes\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7416A839-3923-41D0-A961-5DBE60B9845F}|Infrastructure\\Persistence\\Persistence.csproj|solutionrelative:infrastructure\\persistence\\repositoryconcretes\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7416A839-3923-41D0-A961-5DBE60B9845F}|Infrastructure\\Persistence\\Persistence.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\infrastructure\\persistence\\repositoryconcretes\\tagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7416A839-3923-41D0-A961-5DBE60B9845F}|Infrastructure\\Persistence\\Persistence.csproj|solutionrelative:infrastructure\\persistence\\repositoryconcretes\\tagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7416A839-3923-41D0-A961-5DBE60B9845F}|Infrastructure\\Persistence\\Persistence.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\infrastructure\\persistence\\dependencyresolvers\\repositoryresolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7416A839-3923-41D0-A961-5DBE60B9845F}|Infrastructure\\Persistence\\Persistence.csproj|solutionrelative:infrastructure\\persistence\\dependencyresolvers\\repositoryresolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7A2AC2C-BA96-4901-89A1-D8E1C6BAAA03}|Core\\Contract\\Contract.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\contract\\repositoryinterfaces\\ipostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7A2AC2C-BA96-4901-89A1-D8E1C6BAAA03}|Core\\Contract\\Contract.csproj|solutionrelative:core\\contract\\repositoryinterfaces\\ipostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7A2AC2C-BA96-4901-89A1-D8E1C6BAAA03}|Core\\Contract\\Contract.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\contract\\repositoryinterfaces\\itagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7A2AC2C-BA96-4901-89A1-D8E1C6BAAA03}|Core\\Contract\\Contract.csproj|solutionrelative:core\\contract\\repositoryinterfaces\\itagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7A2AC2C-BA96-4901-89A1-D8E1C6BAAA03}|Core\\Contract\\Contract.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\core\\contract\\repositoryinterfaces\\icommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7A2AC2C-BA96-4901-89A1-D8E1C6BAAA03}|Core\\Contract\\Contract.csproj|solutionrelative:core\\contract\\repositoryinterfaces\\icommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\eren.denizkusu\\source\\repos\\BlogYonetimSistemi\\Infrastructure\\Persistence\\Migrations\\20251225112224_MyMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7416A839-3923-41D0-A961-5DBE60B9845F}|Infrastructure\\Persistence\\Persistence.csproj|e:\\projeler\\bilgeadam\\cagrihoca\\blogy\u00F6netimsistemi\\backend\\infrastructure\\persistence\\configurations\\baseconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7416A839-3923-41D0-A961-5DBE60B9845F}|Infrastructure\\Persistence\\Persistence.csproj|solutionrelative:infrastructure\\persistence\\configurations\\baseconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Infrastructure\\Persistence\\RepositoryConcretes\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\RepositoryConcretes\\BaseRepository.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Infrastructure\\Persistence\\RepositoryConcretes\\BaseRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\RepositoryConcretes\\BaseRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T11:32:19.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Contract\\RepositoryInterfaces\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "Core\\Contract\\RepositoryInterfaces\\ICategoryRepository.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Contract\\RepositoryInterfaces\\ICategoryRepository.cs",
+              "RelativeToolTip": "Core\\Contract\\RepositoryInterfaces\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T11:29:22.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Infrastructure\\Persistence\\RepositoryConcretes\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\RepositoryConcretes\\CategoryRepository.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Infrastructure\\Persistence\\RepositoryConcretes\\CategoryRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\RepositoryConcretes\\CategoryRepository.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAwwBcAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T11:37:27.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateCategoryCommandValidator.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\Validators\\Category\\CreateCategoryCommandValidator.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Validators\\Category\\CreateCategoryCommandValidator.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\Validators\\Category\\CreateCategoryCommandValidator.cs",
+              "RelativeToolTip": "Core\\Application\\Validators\\Category\\CreateCategoryCommandValidator.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T10:29:13.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Presentation\\WebApi\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Presentation\\WebApi\\Controllers\\CategoryController.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Presentation\\WebApi\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Presentation\\WebApi\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAIwEkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T12:55:53.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CommentController.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Presentation\\WebApi\\Controllers\\CommentController.cs",
+              "RelativeDocumentMoniker": "Presentation\\WebApi\\Controllers\\CommentController.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Presentation\\WebApi\\Controllers\\CommentController.cs",
+              "RelativeToolTip": "Presentation\\WebApi\\Controllers\\CommentController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAIwBoAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T12:55:39.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UpdateCategoryCommandValidator.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\Validators\\Category\\UpdateCategoryCommandValidator.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Validators\\Category\\UpdateCategoryCommandValidator.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\Validators\\Category\\UpdateCategoryCommandValidator.cs",
+              "RelativeToolTip": "Core\\Application\\Validators\\Category\\UpdateCategoryCommandValidator.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T10:45:48.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IBaseRepository.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Contract\\RepositoryInterfaces\\IBaseRepository.cs",
+              "RelativeDocumentMoniker": "Core\\Contract\\RepositoryInterfaces\\IBaseRepository.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Contract\\RepositoryInterfaces\\IBaseRepository.cs",
+              "RelativeToolTip": "Core\\Contract\\RepositoryInterfaces\\IBaseRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T11:26:06.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TagController.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Presentation\\WebApi\\Controllers\\TagController.cs",
+              "RelativeDocumentMoniker": "Presentation\\WebApi\\Controllers\\TagController.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Presentation\\WebApi\\Controllers\\TagController.cs",
+              "RelativeToolTip": "Presentation\\WebApi\\Controllers\\TagController.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAkwGIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T12:55:26.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PostController.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Presentation\\WebApi\\Controllers\\PostController.cs",
+              "RelativeDocumentMoniker": "Presentation\\WebApi\\Controllers\\PostController.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Presentation\\WebApi\\Controllers\\PostController.cs",
+              "RelativeToolTip": "Presentation\\WebApi\\Controllers\\PostController.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAASwHoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T12:55:13.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UpdateTagCommandHandler.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Handlers\\Modify\\Tags\\UpdateTagCommandHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\CQRS\\Handlers\\Modify\\Tags\\UpdateTagCommandHandler.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Handlers\\Modify\\Tags\\UpdateTagCommandHandler.cs",
+              "RelativeToolTip": "Core\\Application\\CQRS\\Handlers\\Modify\\Tags\\UpdateTagCommandHandler.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAADwvyMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T09:13:44.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SoftDeleteTagCommandHandler.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Handlers\\Modify\\Tags\\SoftDeleteTagCommandHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\CQRS\\Handlers\\Modify\\Tags\\SoftDeleteTagCommandHandler.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Handlers\\Modify\\Tags\\SoftDeleteTagCommandHandler.cs",
+              "RelativeToolTip": "Core\\Application\\CQRS\\Handlers\\Modify\\Tags\\SoftDeleteTagCommandHandler.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T09:38:41.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RemoveTagCommandHandler.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Handlers\\Modify\\Tags\\RemoveTagCommandHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\CQRS\\Handlers\\Modify\\Tags\\RemoveTagCommandHandler.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Handlers\\Modify\\Tags\\RemoveTagCommandHandler.cs",
+              "RelativeToolTip": "Core\\Application\\CQRS\\Handlers\\Modify\\Tags\\RemoveTagCommandHandler.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAxwCAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T09:13:51.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UpdatePostCommandHandler.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Handlers\\Modify\\Posts\\UpdatePostCommandHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\CQRS\\Handlers\\Modify\\Posts\\UpdatePostCommandHandler.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Handlers\\Modify\\Posts\\UpdatePostCommandHandler.cs",
+              "RelativeToolTip": "Core\\Application\\CQRS\\Handlers\\Modify\\Posts\\UpdatePostCommandHandler.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAUwCUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T09:10:22.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SoftDeletePostCommandHandler.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Handlers\\Modify\\Posts\\SoftDeletePostCommandHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\CQRS\\Handlers\\Modify\\Posts\\SoftDeletePostCommandHandler.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Handlers\\Modify\\Posts\\SoftDeletePostCommandHandler.cs",
+              "RelativeToolTip": "Core\\Application\\CQRS\\Handlers\\Modify\\Posts\\SoftDeletePostCommandHandler.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T09:36:12.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RemovePostCommandHandler.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Handlers\\Modify\\Posts\\RemovePostCommandHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\CQRS\\Handlers\\Modify\\Posts\\RemovePostCommandHandler.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Handlers\\Modify\\Posts\\RemovePostCommandHandler.cs",
+              "RelativeToolTip": "Core\\Application\\CQRS\\Handlers\\Modify\\Posts\\RemovePostCommandHandler.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAcwCAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T09:10:15.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CreatePostCommandHandler.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Handlers\\Modify\\Posts\\CreatePostCommandHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\CQRS\\Handlers\\Modify\\Posts\\CreatePostCommandHandler.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Handlers\\Modify\\Posts\\CreatePostCommandHandler.cs",
+              "RelativeToolTip": "Core\\Application\\CQRS\\Handlers\\Modify\\Posts\\CreatePostCommandHandler.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAswB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T09:10:07.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UpdateCommentCommandHandler.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Handlers\\Modify\\Comments\\UpdateCommentCommandHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\CQRS\\Handlers\\Modify\\Comments\\UpdateCommentCommandHandler.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Handlers\\Modify\\Comments\\UpdateCommentCommandHandler.cs",
+              "RelativeToolTip": "Core\\Application\\CQRS\\Handlers\\Modify\\Comments\\UpdateCommentCommandHandler.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAADwvyQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T09:06:22.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SoftDeleteCommentCommandHandler.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Handlers\\Modify\\Comments\\SoftDeleteCommentCommandHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\CQRS\\Handlers\\Modify\\Comments\\SoftDeleteCommentCommandHandler.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Handlers\\Modify\\Comments\\SoftDeleteCommentCommandHandler.cs",
+              "RelativeToolTip": "Core\\Application\\CQRS\\Handlers\\Modify\\Comments\\SoftDeleteCommentCommandHandler.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T09:34:44.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RemoveCommentCommandHandler.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Handlers\\Modify\\Comments\\RemoveCommentCommandHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\CQRS\\Handlers\\Modify\\Comments\\RemoveCommentCommandHandler.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Handlers\\Modify\\Comments\\RemoveCommentCommandHandler.cs",
+              "RelativeToolTip": "Core\\Application\\CQRS\\Handlers\\Modify\\Comments\\RemoveCommentCommandHandler.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAcwCAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T09:06:31.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CreateCommentCommandHandler.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Handlers\\Modify\\Comments\\CreateCommentCommandHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\CQRS\\Handlers\\Modify\\Comments\\CreateCommentCommandHandler.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Handlers\\Modify\\Comments\\CreateCommentCommandHandler.cs",
+              "RelativeToolTip": "Core\\Application\\CQRS\\Handlers\\Modify\\Comments\\CreateCommentCommandHandler.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAswBsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T09:06:15.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UpdateCategoryCommandHandler.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Handlers\\Modify\\Categories\\UpdateCategoryCommandHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\CQRS\\Handlers\\Modify\\Categories\\UpdateCategoryCommandHandler.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Handlers\\Modify\\Categories\\UpdateCategoryCommandHandler.cs",
+              "RelativeToolTip": "Core\\Application\\CQRS\\Handlers\\Modify\\Categories\\UpdateCategoryCommandHandler.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAiwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T09:04:44.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SoftDeleteCategoryCommandHandler.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Handlers\\Modify\\Categories\\SoftDeleteCategoryCommandHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\CQRS\\Handlers\\Modify\\Categories\\SoftDeleteCategoryCommandHandler.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Handlers\\Modify\\Categories\\SoftDeleteCategoryCommandHandler.cs",
+              "RelativeToolTip": "Core\\Application\\CQRS\\Handlers\\Modify\\Categories\\SoftDeleteCategoryCommandHandler.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwCcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T09:29:03.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "RemoveCategoryCommandHandler.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Handlers\\Modify\\Categories\\RemoveCategoryCommandHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\CQRS\\Handlers\\Modify\\Categories\\RemoveCategoryCommandHandler.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Handlers\\Modify\\Categories\\RemoveCategoryCommandHandler.cs",
+              "RelativeToolTip": "Core\\Application\\CQRS\\Handlers\\Modify\\Categories\\RemoveCategoryCommandHandler.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T09:04:38.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "GetCategoryByIdQuery.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Queries\\CategoryQueries\\GetCategoryByIdQuery.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\CQRS\\Queries\\CategoryQueries\\GetCategoryByIdQuery.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Queries\\CategoryQueries\\GetCategoryByIdQuery.cs",
+              "RelativeToolTip": "Core\\Application\\CQRS\\Queries\\CategoryQueries\\GetCategoryByIdQuery.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T08:24:30.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "GetTagByIdQueryHandler.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Handlers\\Read\\Tags\\GetTagByIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\CQRS\\Handlers\\Read\\Tags\\GetTagByIdQueryHandler.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Handlers\\Read\\Tags\\GetTagByIdQueryHandler.cs",
+              "RelativeToolTip": "Core\\Application\\CQRS\\Handlers\\Read\\Tags\\GetTagByIdQueryHandler.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAcwBoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T09:00:55.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "GetPostByIdQueryHandler.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Handlers\\Read\\Posts\\GetPostByIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\CQRS\\Handlers\\Read\\Posts\\GetPostByIdQueryHandler.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Handlers\\Read\\Posts\\GetPostByIdQueryHandler.cs",
+              "RelativeToolTip": "Core\\Application\\CQRS\\Handlers\\Read\\Posts\\GetPostByIdQueryHandler.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAADwvx0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T08:57:01.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "GetCommentByIdQueryHandler.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Handlers\\Read\\Comments\\GetCommentByIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\CQRS\\Handlers\\Read\\Comments\\GetCommentByIdQueryHandler.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Handlers\\Read\\Comments\\GetCommentByIdQueryHandler.cs",
+              "RelativeToolTip": "Core\\Application\\CQRS\\Handlers\\Read\\Comments\\GetCommentByIdQueryHandler.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAADwvxsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T08:53:29.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "GetCategoryByIdQueryHandler.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Handlers\\Read\\Categories\\GetCategoryByIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\CQRS\\Handlers\\Read\\Categories\\GetCategoryByIdQueryHandler.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Handlers\\Read\\Categories\\GetCategoryByIdQueryHandler.cs",
+              "RelativeToolTip": "Core\\Application\\CQRS\\Handlers\\Read\\Categories\\GetCategoryByIdQueryHandler.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T08:50:18.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "RemoveCategoryCommand.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Commands\\CategoryCommands\\RemoveCategoryCommand.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\CQRS\\Commands\\CategoryCommands\\RemoveCategoryCommand.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Commands\\CategoryCommands\\RemoveCategoryCommand.cs",
+              "RelativeToolTip": "Core\\Application\\CQRS\\Commands\\CategoryCommands\\RemoveCategoryCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwA0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T08:14:14.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Tag.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Domain\\Models\\Tag.cs",
+              "RelativeDocumentMoniker": "Core\\Domain\\Models\\Tag.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Domain\\Models\\Tag.cs",
+              "RelativeToolTip": "Core\\Domain\\Models\\Tag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T10:39:27.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Post.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Domain\\Models\\Post.cs",
+              "RelativeDocumentMoniker": "Core\\Domain\\Models\\Post.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Domain\\Models\\Post.cs",
+              "RelativeToolTip": "Core\\Domain\\Models\\Post.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T10:33:38.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Domain\\Models\\Comment.cs",
+              "RelativeDocumentMoniker": "Core\\Domain\\Models\\Comment.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Domain\\Models\\Comment.cs",
+              "RelativeToolTip": "Core\\Domain\\Models\\Comment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T10:39:58.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Category.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Domain\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Core\\Domain\\Models\\Category.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Domain\\Models\\Category.cs",
+              "RelativeToolTip": "Core\\Domain\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T10:38:44.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Domain\\Models\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "Core\\Domain\\Models\\BaseEntity.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Domain\\Models\\BaseEntity.cs",
+              "RelativeToolTip": "Core\\Domain\\Models\\BaseEntity.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T10:33:56.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "20251226111114_MyMigration.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Infrastructure\\Persistence\\Migrations\\20251226111114_MyMigration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Migrations\\20251226111114_MyMigration.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Infrastructure\\Persistence\\Migrations\\20251226111114_MyMigration.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Migrations\\20251226111114_MyMigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T11:11:14.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CreatePostCommandValidator.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\Validators\\Post\\CreatePostCommandValidator.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Validators\\Post\\CreatePostCommandValidator.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\Validators\\Post\\CreatePostCommandValidator.cs",
+              "RelativeToolTip": "Core\\Application\\Validators\\Post\\CreatePostCommandValidator.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T10:39:35.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ValidatorResolver.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\DependencyResolvers\\ValidatorResolver.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\DependencyResolvers\\ValidatorResolver.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\DependencyResolvers\\ValidatorResolver.cs",
+              "RelativeToolTip": "Core\\Application\\DependencyResolvers\\ValidatorResolver.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T10:48:10.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "CategoryConfiguration.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Infrastructure\\Persistence\\Configurations\\CategoryConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Configurations\\CategoryConfiguration.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Infrastructure\\Persistence\\Configurations\\CategoryConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Configurations\\CategoryConfiguration.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T11:04:27.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "CreateCommentCommandValidator.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\Validators\\Comment\\CreateCommentCommandValidator.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Validators\\Comment\\CreateCommentCommandValidator.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\Validators\\Comment\\CreateCommentCommandValidator.cs",
+              "RelativeToolTip": "Core\\Application\\Validators\\Comment\\CreateCommentCommandValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T10:43:30.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "UpdatePostCommandHandler.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\Validators\\Post\\UpdatePostCommandHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Validators\\Post\\UpdatePostCommandHandler.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\Validators\\Post\\UpdatePostCommandHandler.cs",
+              "RelativeToolTip": "Core\\Application\\Validators\\Post\\UpdatePostCommandHandler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T10:47:21.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Presentation\\WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "Presentation\\WebApi\\Program.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Presentation\\WebApi\\Program.cs",
+              "RelativeToolTip": "Presentation\\WebApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T11:14:10.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "CreateTagCommandValidator.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\Validators\\Tag\\CreateTagCommandValidator.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Validators\\Tag\\CreateTagCommandValidator.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\Validators\\Tag\\CreateTagCommandValidator.cs",
+              "RelativeToolTip": "Core\\Application\\Validators\\Tag\\CreateTagCommandValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T10:52:35.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "UpdateTagCommandValidator.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\Validators\\Tag\\UpdateTagCommandValidator.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Validators\\Tag\\UpdateTagCommandValidator.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\Validators\\Tag\\UpdateTagCommandValidator.cs",
+              "RelativeToolTip": "Core\\Application\\Validators\\Tag\\UpdateTagCommandValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T10:52:42.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "UpdateCommentCommandValidator.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\Validators\\Comment\\UpdateCommentCommandValidator.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Validators\\Comment\\UpdateCommentCommandValidator.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\Validators\\Comment\\UpdateCommentCommandValidator.cs",
+              "RelativeToolTip": "Core\\Application\\Validators\\Comment\\UpdateCommentCommandValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T10:46:39.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "TagConfiguration.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Infrastructure\\Persistence\\Configurations\\TagConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Configurations\\TagConfiguration.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Infrastructure\\Persistence\\Configurations\\TagConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Configurations\\TagConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T11:07:03.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "CommandResultMappingProfile.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\MappingProfiles\\CommandResultMappingProfile.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\MappingProfiles\\CommandResultMappingProfile.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\MappingProfiles\\CommandResultMappingProfile.cs",
+              "RelativeToolTip": "Core\\Application\\MappingProfiles\\CommandResultMappingProfile.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T09:54:26.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "CommentConfiguration.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Infrastructure\\Persistence\\Configurations\\CommentConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Configurations\\CommentConfiguration.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Infrastructure\\Persistence\\Configurations\\CommentConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Configurations\\CommentConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T11:09:14.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "PostConfiguration.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Infrastructure\\Persistence\\Configurations\\PostConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Configurations\\PostConfiguration.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Infrastructure\\Persistence\\Configurations\\PostConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Configurations\\PostConfiguration.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T10:55:28.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "GetCommentsQueryHandler.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Handlers\\Read\\Comments\\GetCommentsQueryHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\CQRS\\Handlers\\Read\\Comments\\GetCommentsQueryHandler.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Handlers\\Read\\Comments\\GetCommentsQueryHandler.cs",
+              "RelativeToolTip": "Core\\Application\\CQRS\\Handlers\\Read\\Comments\\GetCommentsQueryHandler.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAADwvx8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T08:53:21.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "SoftDeleteTagCommand.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Commands\\TagCommands\\SoftDeleteTagCommand.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\CQRS\\Commands\\TagCommands\\SoftDeleteTagCommand.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Commands\\TagCommands\\SoftDeleteTagCommand.cs",
+              "RelativeToolTip": "Core\\Application\\CQRS\\Commands\\TagCommands\\SoftDeleteTagCommand.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwA4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T09:33:09.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "RemoveTagCommand.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Commands\\TagCommands\\RemoveTagCommand.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\CQRS\\Commands\\TagCommands\\RemoveTagCommand.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Commands\\TagCommands\\RemoveTagCommand.cs",
+              "RelativeToolTip": "Core\\Application\\CQRS\\Commands\\TagCommands\\RemoveTagCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwA0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T08:20:42.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "SoftDeleteCommentCommand.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Commands\\CommentCommands\\SoftDeleteCommentCommand.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\CQRS\\Commands\\CommentCommands\\SoftDeleteCommentCommand.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Commands\\CommentCommands\\SoftDeleteCommentCommand.cs",
+              "RelativeToolTip": "Core\\Application\\CQRS\\Commands\\CommentCommands\\SoftDeleteCommentCommand.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwA4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T09:32:40.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "SoftDeleteCategoryCommand.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Commands\\CategoryCommands\\SoftDeleteCategoryCommand.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\CQRS\\Commands\\CategoryCommands\\SoftDeleteCategoryCommand.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Commands\\CategoryCommands\\SoftDeleteCategoryCommand.cs",
+              "RelativeToolTip": "Core\\Application\\CQRS\\Commands\\CategoryCommands\\SoftDeleteCategoryCommand.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwA4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T09:32:22.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "SoftDeletePostCommand.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Commands\\PostCommands\\SoftDeletePostCommand.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\CQRS\\Commands\\PostCommands\\SoftDeletePostCommand.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Commands\\PostCommands\\SoftDeletePostCommand.cs",
+              "RelativeToolTip": "Core\\Application\\CQRS\\Commands\\PostCommands\\SoftDeletePostCommand.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwA4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T09:32:55.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "HandlerResolver.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\DependencyResolvers\\HandlerResolver.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\DependencyResolvers\\HandlerResolver.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\DependencyResolvers\\HandlerResolver.cs",
+              "RelativeToolTip": "Core\\Application\\DependencyResolvers\\HandlerResolver.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwDMAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T09:57:57.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "CommandResultMapperResolver.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\DependencyResolvers\\CommandResultMapperResolver.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\DependencyResolvers\\CommandResultMapperResolver.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\DependencyResolvers\\CommandResultMapperResolver.cs",
+              "RelativeToolTip": "Core\\Application\\DependencyResolvers\\CommandResultMapperResolver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T09:57:31.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "20251226094810_MyMigration.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Infrastructure\\Persistence\\Migrations\\20251226094810_MyMigration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Migrations\\20251226094810_MyMigration.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Infrastructure\\Persistence\\Migrations\\20251226094810_MyMigration.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Migrations\\20251226094810_MyMigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T09:48:10.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Presentation\\WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "Presentation\\WebApi\\appsettings.json",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Presentation\\WebApi\\appsettings.json",
+              "RelativeToolTip": "Presentation\\WebApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-25T10:47:39.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "MyContext.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Infrastructure\\Persistence\\ContextClasses\\MyContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\ContextClasses\\MyContext.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Infrastructure\\Persistence\\ContextClasses\\MyContext.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\ContextClasses\\MyContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T10:53:30.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "DbContextResolvers.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Infrastructure\\Persistence\\DependencyResolvers\\DbContextResolvers.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\DependencyResolvers\\DbContextResolvers.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Infrastructure\\Persistence\\DependencyResolvers\\DbContextResolvers.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\DependencyResolvers\\DbContextResolvers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAB3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T11:14:46.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "CreateCategoryCommandHandler.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Handlers\\Modify\\Categories\\CreateCategoryCommandHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\CQRS\\Handlers\\Modify\\Categories\\CreateCategoryCommandHandler.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Handlers\\Modify\\Categories\\CreateCategoryCommandHandler.cs",
+              "RelativeToolTip": "Core\\Application\\CQRS\\Handlers\\Modify\\Categories\\CreateCategoryCommandHandler.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAADwvxsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T09:04:31.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "CreateTagCommandHandler.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Handlers\\Modify\\Tags\\CreateTagCommandHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\CQRS\\Handlers\\Modify\\Tags\\CreateTagCommandHandler.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Handlers\\Modify\\Tags\\CreateTagCommandHandler.cs",
+              "RelativeToolTip": "Core\\Application\\CQRS\\Handlers\\Modify\\Tags\\CreateTagCommandHandler.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAswB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T09:13:38.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "GetPostsQueryHandler.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Handlers\\Read\\Posts\\GetPostsQueryHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\CQRS\\Handlers\\Read\\Posts\\GetPostsQueryHandler.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Handlers\\Read\\Posts\\GetPostsQueryHandler.cs",
+              "RelativeToolTip": "Core\\Application\\CQRS\\Handlers\\Read\\Posts\\GetPostsQueryHandler.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAADwvxcAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T08:56:49.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "GetTagsQueryHandler.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Handlers\\Read\\Tags\\GetTagsQueryHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\CQRS\\Handlers\\Read\\Tags\\GetTagsQueryHandler.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Handlers\\Read\\Tags\\GetTagsQueryHandler.cs",
+              "RelativeToolTip": "Core\\Application\\CQRS\\Handlers\\Read\\Tags\\GetTagsQueryHandler.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAswBsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T09:00:46.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "GetCategoriesQueryHandler.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Handlers\\Read\\Categories\\GetCategoriesQueryHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\CQRS\\Handlers\\Read\\Categories\\GetCategoriesQueryHandler.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Handlers\\Read\\Categories\\GetCategoriesQueryHandler.cs",
+              "RelativeToolTip": "Core\\Application\\CQRS\\Handlers\\Read\\Categories\\GetCategoriesQueryHandler.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T08:52:29.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "GetPostsQueryResult.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Results\\PostResults\\GetPostsQueryResult.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\CQRS\\Results\\PostResults\\GetPostsQueryResult.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Results\\PostResults\\GetPostsQueryResult.cs",
+              "RelativeToolTip": "Core\\Application\\CQRS\\Results\\PostResults\\GetPostsQueryResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T08:29:50.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "GetTagByIdQueryResult.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Results\\TagResults\\GetTagByIdQueryResult.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\CQRS\\Results\\TagResults\\GetTagByIdQueryResult.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Results\\TagResults\\GetTagByIdQueryResult.cs",
+              "RelativeToolTip": "Core\\Application\\CQRS\\Results\\TagResults\\GetTagByIdQueryResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T08:30:27.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "GetCommentByIdQueryResult.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Results\\CommentResults\\GetCommentByIdQueryResult.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\CQRS\\Results\\CommentResults\\GetCommentByIdQueryResult.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Results\\CommentResults\\GetCommentByIdQueryResult.cs",
+              "RelativeToolTip": "Core\\Application\\CQRS\\Results\\CommentResults\\GetCommentByIdQueryResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T08:29:21.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "GetPostByIdQueryResult.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Results\\PostResults\\GetPostByIdQueryResult.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\CQRS\\Results\\PostResults\\GetPostByIdQueryResult.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Results\\PostResults\\GetPostByIdQueryResult.cs",
+              "RelativeToolTip": "Core\\Application\\CQRS\\Results\\PostResults\\GetPostByIdQueryResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T08:29:56.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "GetCommentsQueryResult.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Results\\CommentResults\\GetCommentsQueryResult.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\CQRS\\Results\\CommentResults\\GetCommentsQueryResult.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Results\\CommentResults\\GetCommentsQueryResult.cs",
+              "RelativeToolTip": "Core\\Application\\CQRS\\Results\\CommentResults\\GetCommentsQueryResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T08:29:16.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "GetTagsQueryResult.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Results\\TagResults\\GetTagsQueryResult.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\CQRS\\Results\\TagResults\\GetTagsQueryResult.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Results\\TagResults\\GetTagsQueryResult.cs",
+              "RelativeToolTip": "Core\\Application\\CQRS\\Results\\TagResults\\GetTagsQueryResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T08:30:21.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "GetCategoriesQueryResult.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Results\\CategoryResults\\GetCategoriesQueryResult.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\CQRS\\Results\\CategoryResults\\GetCategoriesQueryResult.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Results\\CategoryResults\\GetCategoriesQueryResult.cs",
+              "RelativeToolTip": "Core\\Application\\CQRS\\Results\\CategoryResults\\GetCategoriesQueryResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T08:28:30.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "GetCategoryByIdQueryResult.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Results\\CategoryResults\\GetCategoryByIdQueryResult.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\CQRS\\Results\\CategoryResults\\GetCategoryByIdQueryResult.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Results\\CategoryResults\\GetCategoryByIdQueryResult.cs",
+              "RelativeToolTip": "Core\\Application\\CQRS\\Results\\CategoryResults\\GetCategoryByIdQueryResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T08:29:04.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "GetTagByIdQuery.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Queries\\TagQueries\\GetTagByIdQuery.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\CQRS\\Queries\\TagQueries\\GetTagByIdQuery.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Queries\\TagQueries\\GetTagByIdQuery.cs",
+              "RelativeToolTip": "Core\\Application\\CQRS\\Queries\\TagQueries\\GetTagByIdQuery.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAowA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T08:27:22.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "GetPostByIdQuery.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Queries\\PostQueries\\GetPostByIdQuery.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\CQRS\\Queries\\PostQueries\\GetPostByIdQuery.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Queries\\PostQueries\\GetPostByIdQuery.cs",
+              "RelativeToolTip": "Core\\Application\\CQRS\\Queries\\PostQueries\\GetPostByIdQuery.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAowA4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T08:26:59.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "GetCommentByIdQuery.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Queries\\CommentQueries\\GetCommentByIdQuery.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\CQRS\\Queries\\CommentQueries\\GetCommentByIdQuery.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Queries\\CommentQueries\\GetCommentByIdQuery.cs",
+              "RelativeToolTip": "Core\\Application\\CQRS\\Queries\\CommentQueries\\GetCommentByIdQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T08:26:31.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "UpdateTagCommand.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Commands\\TagCommands\\UpdateTagCommand.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\CQRS\\Commands\\TagCommands\\UpdateTagCommand.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Commands\\TagCommands\\UpdateTagCommand.cs",
+              "RelativeToolTip": "Core\\Application\\CQRS\\Commands\\TagCommands\\UpdateTagCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T08:20:50.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "RemovePostCommand.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Commands\\PostCommands\\RemovePostCommand.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\CQRS\\Commands\\PostCommands\\RemovePostCommand.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Commands\\PostCommands\\RemovePostCommand.cs",
+              "RelativeToolTip": "Core\\Application\\CQRS\\Commands\\PostCommands\\RemovePostCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwA0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T08:13:41.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "RemoveCommentCommand.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Commands\\CommentCommands\\RemoveCommentCommand.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\CQRS\\Commands\\CommentCommands\\RemoveCommentCommand.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Commands\\CommentCommands\\RemoveCommentCommand.cs",
+              "RelativeToolTip": "Core\\Application\\CQRS\\Commands\\CommentCommands\\RemoveCommentCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwA0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T08:14:43.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "CreateTagCommand.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Commands\\TagCommands\\CreateTagCommand.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\CQRS\\Commands\\TagCommands\\CreateTagCommand.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Commands\\TagCommands\\CreateTagCommand.cs",
+              "RelativeToolTip": "Core\\Application\\CQRS\\Commands\\TagCommands\\CreateTagCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T08:20:37.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "UpdatePostCommand.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Commands\\PostCommands\\UpdatePostCommand.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\CQRS\\Commands\\PostCommands\\UpdatePostCommand.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Commands\\PostCommands\\UpdatePostCommand.cs",
+              "RelativeToolTip": "Core\\Application\\CQRS\\Commands\\PostCommands\\UpdatePostCommand.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T08:13:20.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "CreatePostCommand.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Commands\\PostCommands\\CreatePostCommand.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\CQRS\\Commands\\PostCommands\\CreatePostCommand.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Commands\\PostCommands\\CreatePostCommand.cs",
+              "RelativeToolTip": "Core\\Application\\CQRS\\Commands\\PostCommands\\CreatePostCommand.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T08:12:39.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "UpdateCommentCommand.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Commands\\CommentCommands\\UpdateCommentCommand.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\CQRS\\Commands\\CommentCommands\\UpdateCommentCommand.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Commands\\CommentCommands\\UpdateCommentCommand.cs",
+              "RelativeToolTip": "Core\\Application\\CQRS\\Commands\\CommentCommands\\UpdateCommentCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T08:14:39.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "CreateCommentCommand.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Commands\\CommentCommands\\CreateCommentCommand.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\CQRS\\Commands\\CommentCommands\\CreateCommentCommand.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Commands\\CommentCommands\\CreateCommentCommand.cs",
+              "RelativeToolTip": "Core\\Application\\CQRS\\Commands\\CommentCommands\\CreateCommentCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T08:14:33.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "CreateCategoryCommand.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Commands\\CategoryCommands\\CreateCategoryCommand.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\CQRS\\Commands\\CategoryCommands\\CreateCategoryCommand.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Commands\\CategoryCommands\\CreateCategoryCommand.cs",
+              "RelativeToolTip": "Core\\Application\\CQRS\\Commands\\CategoryCommands\\CreateCategoryCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T08:14:07.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "PublishState.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Domain\\Models\\Enums\\PublishState.cs",
+              "RelativeDocumentMoniker": "Core\\Domain\\Models\\Enums\\PublishState.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Domain\\Models\\Enums\\PublishState.cs",
+              "RelativeToolTip": "Core\\Domain\\Models\\Enums\\PublishState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T10:36:40.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "ApproveState.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Domain\\Models\\Enums\\ApproveState.cs",
+              "RelativeDocumentMoniker": "Core\\Domain\\Models\\Enums\\ApproveState.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Domain\\Models\\Enums\\ApproveState.cs",
+              "RelativeToolTip": "Core\\Domain\\Models\\Enums\\ApproveState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T10:41:35.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "UpdateCategoryCommand.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Commands\\CategoryCommands\\UpdateCategoryCommand.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\CQRS\\Commands\\CategoryCommands\\UpdateCategoryCommand.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Application\\CQRS\\Commands\\CategoryCommands\\UpdateCategoryCommand.cs",
+              "RelativeToolTip": "Core\\Application\\CQRS\\Commands\\CategoryCommands\\UpdateCategoryCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T08:14:22.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "PostRepository.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Infrastructure\\Persistence\\RepositoryConcretes\\PostRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\RepositoryConcretes\\PostRepository.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Infrastructure\\Persistence\\RepositoryConcretes\\PostRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\RepositoryConcretes\\PostRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T11:38:47.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "CommentRepository.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Infrastructure\\Persistence\\RepositoryConcretes\\CommentRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\RepositoryConcretes\\CommentRepository.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Infrastructure\\Persistence\\RepositoryConcretes\\CommentRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\RepositoryConcretes\\CommentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T11:38:15.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "TagRepository.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Infrastructure\\Persistence\\RepositoryConcretes\\TagRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\RepositoryConcretes\\TagRepository.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Infrastructure\\Persistence\\RepositoryConcretes\\TagRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\RepositoryConcretes\\TagRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T11:39:25.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "RepositoryResolver.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Infrastructure\\Persistence\\DependencyResolvers\\RepositoryResolver.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\DependencyResolvers\\RepositoryResolver.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Infrastructure\\Persistence\\DependencyResolvers\\RepositoryResolver.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\DependencyResolvers\\RepositoryResolver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T11:40:23.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "IPostRepository.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Contract\\RepositoryInterfaces\\IPostRepository.cs",
+              "RelativeDocumentMoniker": "Core\\Contract\\RepositoryInterfaces\\IPostRepository.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Contract\\RepositoryInterfaces\\IPostRepository.cs",
+              "RelativeToolTip": "Core\\Contract\\RepositoryInterfaces\\IPostRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T11:31:01.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "ITagRepository.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Contract\\RepositoryInterfaces\\ITagRepository.cs",
+              "RelativeDocumentMoniker": "Core\\Contract\\RepositoryInterfaces\\ITagRepository.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Contract\\RepositoryInterfaces\\ITagRepository.cs",
+              "RelativeToolTip": "Core\\Contract\\RepositoryInterfaces\\ITagRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T11:30:44.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "ICommentRepository.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Contract\\RepositoryInterfaces\\ICommentRepository.cs",
+              "RelativeDocumentMoniker": "Core\\Contract\\RepositoryInterfaces\\ICommentRepository.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Core\\Contract\\RepositoryInterfaces\\ICommentRepository.cs",
+              "RelativeToolTip": "Core\\Contract\\RepositoryInterfaces\\ICommentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T11:30:13.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "20251225112224_MyMigration.cs",
+              "DocumentMoniker": "C:\\Users\\eren.denizkusu\\source\\repos\\BlogYonetimSistemi\\Infrastructure\\Persistence\\Migrations\\20251225112224_MyMigration.cs",
+              "ToolTip": "C:\\Users\\eren.denizkusu\\source\\repos\\BlogYonetimSistemi\\Infrastructure\\Persistence\\Migrations\\20251225112224_MyMigration.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T11:22:24.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "BaseConfiguration.cs",
+              "DocumentMoniker": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Infrastructure\\Persistence\\Configurations\\BaseConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Configurations\\BaseConfiguration.cs",
+              "ToolTip": "E:\\Projeler\\BilgeAdam\\CagriHoca\\BlogY\u00F6netimSistemi\\backend\\Infrastructure\\Persistence\\Configurations\\BaseConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Configurations\\BaseConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T10:57:53.532Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
