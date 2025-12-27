@@ -77,7 +77,7 @@ namespace WebApi.Controllers
             return Ok("Veri eklendi");
         }
 
-        [HttpPut]
+        [HttpPut("{id}")]
         public async Task<IActionResult> UpdateTag(UpdateTagCommand command)
         {
             var validationResult = await _updateValidator.ValidateAsync(command);
@@ -88,7 +88,7 @@ namespace WebApi.Controllers
                     .Select(e => new { e.PropertyName, e.ErrorMessage }));
             }
 
-            var result =await _updateTagCommandHandler.Handle(command);
+            var result = await _updateTagCommandHandler.Handle(command);
 
             if (result == null)
             {
@@ -98,7 +98,7 @@ namespace WebApi.Controllers
             return Ok("Veri güncelleme basarılıdır");
         }
 
-        [HttpPut("id")]
+        [HttpPut("pacify/{id}")]
         public async Task<IActionResult> SoftDeleteTag(int id)
         {
             var result = await _softDeleteTagCommandHandler.Handle(new SoftDeleteTagCommand(id));
@@ -111,7 +111,7 @@ namespace WebApi.Controllers
             return Ok("Veri pasif hale getirildi");
         }
 
-        [HttpDelete("id")]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteTag(int id)
         {
             var result = await _removeTagCommandHandler.Handle(new RemoveTagCommand(id));

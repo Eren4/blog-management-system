@@ -78,7 +78,7 @@ namespace WebApi.Controllers
             return Ok("Veri eklendi");
         }
 
-        [HttpPut]
+        [HttpPut("{id}")]
         public async Task<IActionResult> UpdateComment(UpdateCommentCommand command)
         {
             var validationResult = await _updateValidator.ValidateAsync(command);
@@ -99,7 +99,7 @@ namespace WebApi.Controllers
             return Ok("Veri güncelleme basarılıdır");
         }
 
-        [HttpPut("id")]
+        [HttpPut("pacify/{id}")]
         public async Task<IActionResult> SoftDeleteComment(int id)
         {
             var result = await _softDeleteCommentCommandHandler.Handle(new SoftDeleteCommentCommand(id));
@@ -112,7 +112,7 @@ namespace WebApi.Controllers
             return Ok("Veri pasif hale getirildi");
         }
 
-        [HttpDelete("id")]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteComment(int id)
         {
             var result = await _removeCommentCommandHandler.Handle(new RemoveCommentCommand(id));
