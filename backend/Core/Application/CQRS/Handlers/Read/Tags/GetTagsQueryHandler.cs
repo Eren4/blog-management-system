@@ -25,6 +25,7 @@ namespace Application.CQRS.Handlers.Read.Tags
 
             return values.Select(x => new GetTagsQueryResult
             {
+                Id = x.Id,
                 TagName = x.TagName
             }).ToList();
         }

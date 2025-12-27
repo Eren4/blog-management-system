@@ -11,5 +11,6 @@ namespace Application.CQRS.Commands.CommentCommands
         public int Id { get; set; }
         public string AuthorName { get; set; }
         public string Text { get; set; }
+        public int PostId { get; set; }
     }
 }

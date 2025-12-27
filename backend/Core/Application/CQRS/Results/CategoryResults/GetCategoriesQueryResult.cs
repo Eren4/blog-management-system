@@ -8,6 +8,7 @@ namespace Application.CQRS.Results.CategoryResults
 {
     public class GetCategoriesQueryResult
     {
+        public int Id { get; set; }
         public string CategoryName { get; set; }
         public string Description { get; set; }
     }

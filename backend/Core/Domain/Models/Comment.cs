@@ -12,5 +12,9 @@ namespace Domain.Models
         public string AuthorName { get; set; }
         public string Text { get; set; } // cannot be empty
         public ApproveState ApproveState { get; set; }
+        public int PostId { get; set; }
+
+        // Relational properties
+        public Post Post { get; set; }
     }
 }

@@ -13,5 +13,6 @@ namespace Application.CQRS.Results.CommentResults
         public string AuthorName { get; set; }
         public string Text { get; set; } // cannot be empty
         public ApproveState ApproveState { get; set; }
+        public int PostId { get; set; }
     }
 }

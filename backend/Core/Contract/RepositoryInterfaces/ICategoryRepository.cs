@@ -10,5 +10,6 @@ namespace Contract.RepositoryInterfaces
     public interface ICategoryRepository : IBaseRepository<Category>
     {
         Task<bool> ExistsByNameAsync(string name);
+        Task<bool> ExistsByNameExcludeIdAsync(string name, int excludeId);
     }
 }

@@ -25,6 +25,7 @@ namespace Application.CQRS.Handlers.Read.Posts
 
             return values.Select(x => new GetPostsQueryResult
             {
+                Id = x.Id,
                 Title = x.Title,
                 PublishState = x.PublishState,
                 Excerpt = x.Excerpt,

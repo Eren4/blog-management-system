@@ -21,7 +21,14 @@ namespace Persistence.RepositoryConcretes
 
         public Task<bool> ExistsByNameAsync(string name)
         {
-            return _context.Categories.AnyAsync(c => c.CategoryName.ToLower().Equals(name.ToLower()));
+            return _context.Categories.AnyAsync(
+                c => c.CategoryName.ToLower().Equals(name.ToLower()));
+        }
+
+        public Task<bool> ExistsByNameExcludeIdAsync(string name, int excludeId)
+        {
+            return _context.Categories.AnyAsync(
+                c => c.CategoryName.ToLower().Equals(name.ToLower()) && c.Id != excludeId);
         }
     }
 }

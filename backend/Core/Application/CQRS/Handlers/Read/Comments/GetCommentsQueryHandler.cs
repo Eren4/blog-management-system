@@ -25,9 +25,11 @@ namespace Application.CQRS.Handlers.Read.Comments
 
             return values.Select(x => new GetCommentsQueryResult
             {
+                Id = x.Id,
                 Text = x.Text,
                 AuthorName = x.AuthorName,
-                ApproveState = x.ApproveState
+                ApproveState = x.ApproveState,
+                PostId = x.PostId
             }).ToList();
         }
     }

@@ -30,6 +30,7 @@ namespace Application.CQRS.Handlers.Modify.Comments
 
             value.AuthorName = command.AuthorName;
             value.Text = command.Text;
+            value.PostId = command.PostId;
             value.UpdatedDate = DateTime.Now;
 
             await _repository.SaveChangesAsync();

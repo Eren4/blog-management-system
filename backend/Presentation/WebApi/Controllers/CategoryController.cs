@@ -47,7 +47,7 @@ namespace WebApi.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetCategorys()
+        public async Task<IActionResult> GetCategories()
         {
             List<GetCategoriesQueryResult> values = await _getCategorysQueryHandler.Handle();
 
@@ -78,7 +78,7 @@ namespace WebApi.Controllers
             return Ok("Veri eklendi");
         }
 
-        [HttpPut]
+        [HttpPut("{id}")]
         public async Task<IActionResult> UpdateCategory(UpdateCategoryCommand command)
         {
             var validationResult = await _updateValidator.ValidateAsync(command);
@@ -99,7 +99,7 @@ namespace WebApi.Controllers
             return Ok("Veri güncelleme basarılıdır");
         }
 
-        [HttpPut("id")]
+        [HttpPut("pacify/{id}")]
         public async Task<IActionResult> SoftDeleteCategory(int id)
         {
             var result = await _softDeleteCategoryCommandHandler.Handle(new SoftDeleteCategoryCommand(id));
@@ -112,7 +112,7 @@ namespace WebApi.Controllers
             return Ok("Veri pasif hale getirildi");
         }
 
-        [HttpDelete("id")]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteCategory(int id)
         {
             var result = await _removeCategoryCommandHandler.Handle(new RemoveCategoryCommand(id));

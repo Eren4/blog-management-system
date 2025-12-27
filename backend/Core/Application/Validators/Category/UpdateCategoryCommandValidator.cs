@@ -21,9 +21,9 @@ namespace Application.Validators.Category
                 .MustAsync(BeUniqueName).WithMessage("Kategori ismi daha önceden mevcut");
         }
 
-        private async Task<bool> BeUniqueName(string name, CancellationToken cancellationToken)
+        private async Task<bool> BeUniqueName(UpdateCategoryCommand command, string name, CancellationToken cancellationToken)
         {
-            return !await _repository.ExistsByNameAsync(name);
+            return !await _repository.ExistsByNameExcludeIdAsync(name, command.Id);
         }
     }
 }

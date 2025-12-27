@@ -21,8 +21,9 @@ namespace OnionVb02.Application.CqrsAndMediatr.CQRS.Handlers.Read.Categories
 
             return values.Select(x => new GetCategoriesQueryResult
             {
+                Id = x.Id,
                 CategoryName = x.CategoryName,
-                Description = x.Description,
+                Description = x.Description
             }).ToList();
         }
     }

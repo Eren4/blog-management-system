@@ -12,7 +12,7 @@ using Persistence.ContextClasses;
 namespace Persistence.Migrations
 {
     [DbContext(typeof(MyContext))]
-    [Migration("20251226111114_MyMigration")]
+    [Migration("20251227114537_MyMigration")]
     partial class MyMigration
     {
         /// <inheritdoc />
@@ -82,6 +82,9 @@ namespace Persistence.Migrations
                     b.Property<bool>("IsActive")
                         .HasColumnType("bit");
 
+                    b.Property<int>("PostId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Text")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -90,6 +93,8 @@ namespace Persistence.Migrations
                         .HasColumnType("datetime2");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("PostId");
 
                     b.ToTable("Comments");
                 });
@@ -161,6 +166,17 @@ namespace Persistence.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Tags");
+                });
+
+            modelBuilder.Entity("Domain.Models.Comment", b =>
+                {
+                    b.HasOne("Domain.Models.Post", "Post")
+                        .WithMany()
+                        .HasForeignKey("PostId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Post");
                 });
 #pragma warning restore 612, 618
         }

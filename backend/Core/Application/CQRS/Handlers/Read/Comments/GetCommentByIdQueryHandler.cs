@@ -34,7 +34,8 @@ namespace Application.CQRS.Handlers.Read.Comments
                 Id = value.Id,
                 AuthorName = value.AuthorName,
                 Text = value.Text,
-                ApproveState = value.ApproveState
+                ApproveState = value.ApproveState,
+                PostId = value.PostId
             };
         }
     }
