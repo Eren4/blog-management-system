@@ -31,6 +31,7 @@ namespace Application.CQRS.Handlers.Modify.Posts
             value.Title = command.Title;
             value.Content = command.Content;
             value.Excerpt = command.Excerpt;
+            value.PublishState = command.PublishState;
             value.UpdatedDate = DateTime.Now;
 
             await _repository.SaveChangesAsync();

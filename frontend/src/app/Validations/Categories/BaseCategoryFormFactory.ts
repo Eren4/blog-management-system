@@ -1,12 +1,12 @@
 import { FormControl, Validators } from "@angular/forms";
 import { CategoryValidators } from "./CategoryValidator";
 
-export type BaseCategoryFrom = {
+export type BaseCategoryForm = {
     name: FormControl<string>;
     description: FormControl<string>;
 };
 
-export function baseCategoryForm(): BaseCategoryFrom {
+export function baseCategoryForm(): BaseCategoryForm {
     return {
         name: new FormControl<string>('', { nonNullable: true, validators: CategoryValidators.name() }),
         description: new FormControl<string>('', { nonNullable: true, validators: CategoryValidators.description() })

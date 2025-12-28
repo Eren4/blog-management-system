@@ -26,6 +26,7 @@ namespace Application.CQRS.Handlers.Modify.Posts
                 Title = command.Title,
                 Content = command.Content,
                 Excerpt = command.Excerpt,
+                PublishState = command.PublishState,
                 CreatedDate = DateTime.Now,
             });
         }

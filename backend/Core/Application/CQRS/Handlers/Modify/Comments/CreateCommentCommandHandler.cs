@@ -26,6 +26,7 @@ namespace Application.CQRS.Handlers.Modify.Comments
                 AuthorName = command.AuthorName,
                 Text = command.Text,
                 PostId = command.PostId,
+                ApproveState = command.ApproveState,
                 CreatedDate = DateTime.Now,
             });
         }

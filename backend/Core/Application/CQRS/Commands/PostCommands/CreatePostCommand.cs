@@ -12,5 +12,6 @@ namespace Application.CQRS.Commands.PostCommands
         public string Title { get; set; }
         public string Content { get; set; }
         public string Excerpt { get; set; }
+        public PublishState PublishState { get; set; }
     }
 }

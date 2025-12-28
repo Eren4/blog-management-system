@@ -10,5 +10,8 @@ namespace Domain.Models
     {
         public string CategoryName { get; set; }
         public string Description { get; set; }
+
+        // Relational properties
+        public ICollection<Post> Posts { get; set; } = new List<Post>();
     }
 }
